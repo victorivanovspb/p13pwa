@@ -1,4 +1,4 @@
-# project 13 & pwa
+# Project13 + PWA
 
 1. HTTPS
 2. Изображения/иконки
