@@ -6,6 +6,7 @@
 4. Sevice Worker
 5. Дополнительно
 6. Кнопка "Установить приложение" на сайте
+7. Проверка PWA
 
 ## 1. HTTPS
 
@@ -88,4 +89,5 @@ async function pwainstall() {
 }
 </script>
 ```
-## 7. Проверка ...
+## 7. Проверка PWA
+https://www.pwabuilder.com/testing?site=https://www.project13.by/
