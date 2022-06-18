@@ -1,0 +1,48 @@
+{
+  "background_color": "#ffffff",
+  "description": "Мототуризм по Беларуси и в Беларусь",
+  "lang": "ru",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Project 13",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "p13",
+  "start_url": "https://project13.by/",
+  "theme_color": "transparent",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "ico/44x44.png",
+      "type": "image/png",
+      "sizes": "44x44",
+      "purpose": "any"
+    },
+    {
+      "src": "ico/72x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any"
+    },
+    {
+      "src": "ico/256x256.png",
+      "type": "image/png",
+      "sizes": "256x256",
+      "purpose": "any"
+    },
+    {
+      "src": "ico/388x388.png",
+      "type": "image/png",
+      "sizes": "388x388",
+      "purpose": "any"
+    },
+    {
+      "src": "ico/1280x1280.png",
+      "type": "image/png",
+      "sizes": "1280x1280",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": []
+}
