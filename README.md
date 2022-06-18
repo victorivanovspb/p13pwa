@@ -55,3 +55,37 @@
 ```
 
 ## 6. Кнопка "Установить приложение" на сайте
+
+* Добавить подходящую html-конструкцию (кнопка, ссылка), например:
+```
+<button onclick="pwainstall()">
+  Установить приложение
+</button>
+```
+
+* В индексный файл добавить скрипт:
+```
+<script>
+let deferredPrompt = null;
+
+window.addEventListener('beforeinstallprompt, (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+});
+
+async function pwainstall() {
+  if (defereedPrompt) {
+    deferredPrompt.prompt();
+    console.log(deferredPrompt);
+    
+    deferredPrompt.userChoise.then(function(choiseResult){
+      if(choiseResult.outcome === 'accepted') {
+        console.log('Your PWA has been installed');
+      }
+      deferredPrompt = null;
+    });
+  }
+}
+</script>
+```
+## 7. Проверка ...
