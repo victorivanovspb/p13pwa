@@ -1,5 +1,4 @@
 {
-  "background_color": "#ffffff",
   "description": "Мототуризм по Беларуси и в Беларусь",
   "lang": "ru",
   "dir": "ltr",
@@ -9,7 +8,8 @@
   "scope": "/",
   "short_name": "p13",
   "start_url": "https://project13.by/",
-  "theme_color": "transparent",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
   "categories": [],
   "screenshots": [],
   "icons": [
