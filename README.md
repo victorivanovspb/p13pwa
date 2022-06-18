@@ -5,6 +5,7 @@
 3. Манифест
 4. Sevice Worker
 5. Дополнительно
+6. Кнопка "Установить приложение" на сайте
 
 ## 1. HTTPS
 
@@ -45,5 +46,12 @@
 
 * В индексный файл добавить мета-тег:
 ```
-<meta name="theme-color">
+<meta name="theme-color" content="#ffffff">
 ```
+
+* В индексный файл добавить линк на `apple-touch-icon`:
+```
+<link rel="apple-touch-icon" href="ico/388x388.png">
+```
+
+## 6. Кнопка "Установить приложение" на сайте
