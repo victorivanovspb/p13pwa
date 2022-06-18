@@ -4,6 +4,7 @@
 2. Изображения/иконки
 3. Манифест
 4. Sevice Worker
+5. Дополнительно
 
 ## 1. HTTPS
 
@@ -38,4 +39,11 @@
    const el = document.createElement('pwa-update');
    document.body.appendChild(el);
 </script>
-``` 
+```
+
+## 5. Дополнительно
+
+* В индексный файл добавить мета-тег:
+```
+<meta name="theme-color">
+```
