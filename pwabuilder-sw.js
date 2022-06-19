@@ -1,18 +1,11 @@
-// This is the "Offline copy of assets" service worker
-
-const CACHE = "pwabuilder-offline";
-
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
-
-self.addEventListener("message", (event) => {
-  if (event.data && event.data.type === "SKIP_WAITING") {
-    self.skipWaiting();
-  }
+self.addEventListener('install', (event) => {
+    console.log('SW installed');
 });
 
-workbox.routing.registerRoute(
-  new RegExp('/*'),
-  new workbox.strategies.StaleWhileRevalidate({
-    cacheName: CACHE
-  })
-);
+self.addEventListener('activate', (event) => {
+    console.log('SW activated');
+});
+
+self.addEventListener('fetch', (event) => {
+    console.log('SW fetched');
+});
